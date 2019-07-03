@@ -1,0 +1,65 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  background: url('./assets/bg.jpg');
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color: #111111;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+h3 {
+  margin: 40px 0px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+#logo-container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin: 10px;
+}
+
+#form-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+form input {
+  display: block;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  border: 1px solid #111111;
+}
+
+form button {
+  width: 300px;
+}
